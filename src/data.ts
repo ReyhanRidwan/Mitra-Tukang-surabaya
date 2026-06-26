@@ -2,15 +2,15 @@ import { Service, PortfolioItem, Testimonial, FAQItem, BlogArticle } from './typ
 
 // Image paths mapped to generated assets
 export const IMAGES = {
-  heroBanner: '/images/hero_banner_1782493008962.jpg',
-  renovasiRumah: '/images/renovasi_rumah_1782493024818.jpg',
-  pasangPlafon: '/images/pasang_plafon_1782493038468.jpg',
-  pasangKeramik: '/images/pasang_keramik_1782493052113.jpg',
-  instalasiListrik: '/images/instalasi_listrik_1782493067396.jpg',
-  kanopiBaja: '/images/kanopi_baja_1782493078805.jpg',
-  pengecatan: '/images/pengecatan_1782493094241.jpg',
-  bongkarBangunan: '/images/bongkar_bangunan_1782493109366.jpg',
-  ctaBg: '/images/cta_bg_1782493122114.jpg',
+  heroBanner: '/assets/images/hero_banner_1782493008962.jpg',
+  renovasiRumah: '/assets/images/renovasi_rumah_1782493024818.jpg',
+  pasangPlafon: '/assets/images/pasang_plafon_1782493038468.jpg',
+  pasangKeramik: '/assets/images/pasang_keramik_1782493052113.jpg',
+  instalasiListrik: '/assets/images/instalasi_listrik_1782493067396.jpg',
+  kanopiBaja: '/assets/images/kanopi_baja_1782493078805.jpg',
+  pengecatan: '/assets/images/pengecatan_1782493094241.jpg',
+  bongkarBangunan: '/assets/images/bongkar_bangunan_1782493109366.jpg',
+  ctaBg: '/assets/images/cta_bg_1782493122114.jpg',
 };
 
 export const CONTACT_INFO = {
