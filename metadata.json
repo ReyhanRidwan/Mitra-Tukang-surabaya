@@ -1,0 +1,6 @@
+{
+  "name": "PT Mitra Tukang Surabaya",
+  "description": "Website landing page premium untuk PT Mitra Tukang Surabaya yang bergerak di bidang Jasa Pertukangan, Renovasi, Maintenance, dan Konstruksi Bangunan Profesional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

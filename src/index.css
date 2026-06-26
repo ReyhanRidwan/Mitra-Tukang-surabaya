@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy-dark: #0A0F1D;
+  --color-brand-navy: #111827;
+  --color-brand-navy-light: #1E293B;
+  --color-brand-orange: #F97316;
+  --color-brand-orange-hover: #EA580C;
+  --color-brand-orange-light: #FFedd5;
+  --color-brand-gray-light: #F8FAFC;
+  --color-brand-gray-medium: #E2E8F0;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+@layer utilities {
+  /* Glassmorphism utility */
+  .glass-card {
+    background: rgba(30, 41, 59, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .glass-card-light {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(241, 245, 249, 0.6);
+  }
+}
+
+/* Custom scrollbar and smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0F1D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F97316;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EA580C;
+}
